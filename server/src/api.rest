@@ -1,0 +1,29 @@
+### 
+
+GET HTTP://localhost:3000/api/empleados
+
+### 
+
+post HTTP://localhost:3000/api/empleados
+Content-Type: application/json
+
+{
+    "name":"cesar  Cordero",
+    "position": "ser developer",
+    "office":"rome",
+    "salary": "500000"
+}
+
+###
+GET  HTTP://localhost:3000/api/empleados/60221ae4966fab2f58ee1baf
+
+###
+DELETE  HTTP://localhost:3000/api/empleados/60221b2e966fab2f58ee1bb0
+
+###
+PUT  HTTP://localhost:3000/api/empleados/60221ae4966fab2f58ee1baf
+Content-Type: application/json
+
+{
+    "salary": 100001
+}
